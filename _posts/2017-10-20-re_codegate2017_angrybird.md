@@ -203,7 +203,7 @@ $ radiff2 angrybird_org angrybird_mod
 
 这样程序的运行就正常了，它从标准输入读入字符，进行一系列的判断，由于程序执行流非常长，我们不可能一个一个地去 patch。radare2 里输入命令 `VV @ main` 可以看到下面的东西：
 
-![](/post_pic/graph.png)
+![](/post_pic/2017-10-20-re_codegate2017_angrybird/graph.png)
 
 不如使用 angr 来解决它，指定好目标地址，让它运行到那儿，在大多数情况下，这种方法都是有效的。
 ```
