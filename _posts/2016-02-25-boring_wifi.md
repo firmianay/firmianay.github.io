@@ -11,14 +11,6 @@ categories:
 - wireless
 ---
 
----
-layout: post
-title: 记一次极度无聊下的WiFi破解和内网嗅探
-category: old_blog
-tags: wifi
-keywords: wifi
-description:
----
 
 > 本文写于 2016.02.25
 
